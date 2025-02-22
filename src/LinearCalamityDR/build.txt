@@ -3,3 +3,4 @@ author = TacoConKvass
 version = 1.0.0
 modReferences = CalamityMod
 homepage = https://github.com/TacoConKvass/LinearCalamityDR
+side = both
