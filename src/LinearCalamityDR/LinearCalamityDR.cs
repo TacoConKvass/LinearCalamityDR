@@ -21,7 +21,7 @@ public class LinearCalamityDR : Mod {
 			ILCursor cursor = new ILCursor(il);
 
 			if (cursor.TryGotoNext(MoveType.After, i => i.MatchLdfld<Player>("endurance"), i => i.MatchLdcR4(0))) {
-				cursor.EmitDelegate((float zero) => 99999f);
+				cursor.EmitDelegate((float zero) => float.PositiveInfinity);
 			}
 		},
 		false
